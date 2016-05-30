@@ -18,3 +18,7 @@ To install the new board version (make it available from the Arduino IDE):
 - Add the definition of the new board, contained in boards.txt, at the end of boards.txt that is located in **sam/1.6.7/**
  
 The board will appear in your IDE as *Arduino Due paddle version (Programming Port)*. The reason why it is called paddle version is that I developped it for building the control system of a paddle.
+
+## Testing the ADC, PWM and buffers
+
+The sketches contained in **Sketches** allow to test the ADC, PWM and the RX buffer.
