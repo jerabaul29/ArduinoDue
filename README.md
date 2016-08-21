@@ -4,7 +4,7 @@ This repository contains a modified version of the core and variant of the code 
 
 - Get a 20kHz PWM frequency on all PWM pins instead of 1kHz. This is done by modifying the relevant parts of variant.h
 - Make it possible to use the 12 bits resolution PWM on the pins that support it (6 included to 9 included) using *analogWriteResolution()*, which seems broken in Arduino IDE 1.6.8. This is done by modifying the relevant parts of variant.h
-- Get independantly control of the size of the RX and TX buffers for the programming port (Serial). This is done by creating new classes *UARTClass_1*, *RingBuffer_1_TX*, *RingBuffer_1_RX* and adapting all files impacted by those changes.
+- Get independantly control of the size of the RX and TX buffers for the programming port (Serial). This is done by creating new classes *UARTClass_1*, *RingBuffer_1_TX*, *RingBuffer_1_RX* in the Arduino DUE core and adapting all files impacted by those changes.
  
 
 ## Installing the board
